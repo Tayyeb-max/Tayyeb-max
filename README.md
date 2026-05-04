@@ -12,29 +12,31 @@ Currently working at **VirtueNetz** where I've shipped 10+ production apps in 2 
 **Cloud & DevOps:** Docker, AWS (S3, EC2), Vercel, GitHub Actions
 **Other:** Stripe, PayPal, Socket.IO, Firebase, OpenAI API, Claude API
 
-## Public contributions you can browse
+## Projects I've worked on
 
-Most VirtueNetz client work lives on team-owned repos. Here's where my code is publicly visible:
+### Thrive — EdTech SaaS for schools
+Built backend and admin panel from scratch. 500+ active users. 6 user roles, 52 fine-grained permissions, gamification (XP, levels, badges, leaderboards), real-time notifications via Socket.IO.
+**Stack:** Express, Next.js, PostgreSQL, Redis, Socket.IO, TypeScript
 
-| Repo | Role | What's there |
-|------|------|--------------|
-| 🔗 [thrive-backend](https://github.com/ahmadev017/thrive-backend) | **Top contributor (92 commits)** | EdTech SaaS backend: Express + PostgreSQL + Socket.IO, RBAC (6 roles, 52 permissions), gamification engine |
-| 🔗 [thrive-admin](https://github.com/ahmadev017/thrive-admin) | **Top contributor (92 commits)** | Next.js admin panel for Thrive — TypeScript, Tailwind, Shadcn/UI |
-| 🔗 [leave-management-backend](https://github.com/ahmadev017/leave-management-backend) | Contributor | NestJS + Prisma + Postgres, Docker setup |
-| 🔗 [eco-actions-platform](https://github.com/TayyebAslam/eco-actions-platform) | Owner | Sustainability engagement platform — Express + Next.js admin |
+### HR Recruitment Platform — AI-powered hiring
+Full-stack ATS with AI candidate screening. Integrated OpenAI Realtime API for live voice interviews and Claude API for auto-screening CVs — cut manual review time by ~70%.
+**Stack:** Next.js, Prisma, PostgreSQL, OpenAI API, Claude API
 
-📊 [**See my full contribution graph →**](https://github.com/Tayyeb-max?tab=overview&from=2026-01-01&to=2026-04-30)
+### FusionGo — Shipment tracking platform
+Real-time logistics platform with live GPS tracking, OTP-verified deliveries, and push notifications. Multi-role: super admins, admins, customers, drivers.
+**Stack:** Node.js, PostgreSQL, Socket.IO, Firebase Cloud Messaging
 
-## Things I've built (full list)
+### SpeakerMe — Speaker booking platform
+Full-stack: backend with Stripe billing and Redis caching across 103 endpoints, plus the Next.js admin panel. Users can find speakers, book events, manage subscriptions.
+**Stack:** Node.js, Next.js, PostgreSQL, Redis, Stripe
 
-| Project | What it does | Stack | Code |
-|---------|-------------|-------|------|
-| **Thrive** | EdTech SaaS for schools with gamification, 500+ users | Express, Next.js, PostgreSQL, Redis, Socket.IO | [Public](https://github.com/ahmadev017/thrive-backend) |
-| **HR Recruitment Platform** | AI-powered hiring with voice interviews and auto CV screening | Next.js, Prisma, PostgreSQL, OpenAI, Claude API | Private (client) |
-| **FusionGo** | Shipment tracking with live GPS and OTP deliveries | Node.js, PostgreSQL, Socket.IO, Firebase | Private (client) |
-| **SpeakerMe** | Speaker booking platform with Stripe subscriptions, 103 endpoints | Node.js, Next.js, Redis, Stripe | Private (client) |
-| **FindAnyAgent** | Real estate platform for property listings | Node.js, Next.js, Drizzle, AWS S3 | Private (client) |
-| **Clinic Finance** | Clinic management and finance tracking app | Node.js, Next.js, PostgreSQL, Cloudinary | Private (client) |
+### FindAnyAgent — Real estate platform
+Property search and agent discovery SaaS with file uploads, calendar management, Stripe billing. Built backend and 370+ component admin dashboard.
+**Stack:** Express.js, Drizzle ORM, AWS S3, Next.js, Stripe
+
+### Clinic Finance — Clinic management
+Full-stack clinic operations and finance tracking app — patient records, billing, reports.
+**Stack:** Node.js, Next.js, PostgreSQL, Cloudinary
 
 ## What I'm up to
 
